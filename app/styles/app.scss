@@ -4,3 +4,13 @@
 @import "foundation";
 @include foundation-everything;
 //components
+@import "components/main";
+@import "components/textarea";
+@import "components/preview";
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
